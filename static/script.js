@@ -34,6 +34,21 @@ function del(){
     result.value = result2.substring(0, result2.length - 1);
 }
 
+//=================================
+function confirma(){
+    let result2  = result.value;
+    result.value = result2.substring(0, 1212);
+    }
+
+
+// Buscar imagem
+function buscarImagem(){
+    let inputValue = document.querySelector('#result').value;
+    window.open('/numero?numero=' + inputValue);
+    window.close();
+    // window.open('/numero?numero=' + inputValue);
+}
+//==================
 /*
     ====================================================
     =================== TOGGLE THEME ===================
